@@ -26,6 +26,7 @@
         "psr-4": {"borales\\widgets\\ace\\": "src/"}
     },
     "require": {
-        "yiisoft/yii2": "*"
+        "yiisoft/yii2": "*",
+        "bower-asset/ace-builds": "~1.1"
     }
 }
