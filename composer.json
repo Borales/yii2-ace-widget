@@ -1,0 +1,31 @@
+{
+    "name": "borales/yii2-ace-widget",
+    "version": "0.0.1",
+    "description": "Yii2 Ace (Ajax.org Cloud9 Editor) Widget",
+    "keywords": [
+        "yii2",
+        "ACE",
+        "ace-editor",
+        "Cloud9 Editor"
+    ],
+    "minimum-stability": "dev",
+    "license": "BSD-3-Clause",
+    "type": "yii2-extension",
+    "homepage": "https://github.com/Borales/yii2-ace-widget",
+    "support": {
+        "issues": "https://github.com/Borales/yii2-ace-widget/issues?state=open",
+        "source": "https://github.com/Borales/yii2-ace-widget"
+    },
+    "authors": [
+        {
+            "name": "Borales (Alexandr Bordun)",
+            "email": "bordun.alexandr@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"borales\\widgets\\ace\\": "src/"}
+    },
+    "require": {
+        "yiisoft/yii2": "*"
+    }
+}
