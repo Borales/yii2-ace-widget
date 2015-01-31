@@ -38,7 +38,9 @@ echo \borales\widgets\ace\Widget::widget([
 ]);
 
 // Using with ActiveForm/ActiveField
-echo $this->field($model, 'attribute_name')->widget(\borales\widgets\ace\Widget::className());
+echo $this->field($model, 'attribute_name')->widget(
+    \borales\widgets\ace\Widget::className()
+);
 
 // For basic usage
 echo \borales\widgets\ace\Widget::widget([
@@ -50,4 +52,4 @@ echo \borales\widgets\ace\Widget::widget([
 ### Default options
 
 - `mode` = `php`
-- `theme` is `chrome`
+- `theme` = `chrome`
