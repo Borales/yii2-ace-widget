@@ -45,11 +45,15 @@ echo $this->field($model, 'attribute_name')->widget(
 // For basic usage
 echo \borales\widgets\ace\Widget::widget([
     'name' => 'editor_name',
+    'value' => 'your text code',
 ]);
 
 ```
 
-### Default options
+### Options
 
-- `mode` = `php`
-- `theme` = `chrome`
+- `mode` - code language (default is `php`).
+- `theme` - color scheme (default is `github`).
+- `editable` - whether to display editable text input or just highlight the output (default is `true`).
+- `autocompletion` - whether to enable simple autocompletion functionality (only with `editable = true`).
+- `aceOptions` - ACE's editor options.
